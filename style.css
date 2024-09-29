@@ -1,0 +1,31 @@
+ *{
+    margin-top: 0;
+    padding: 0;
+ }
+ 
+ 
+ body {
+    background-color: beige;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar>.container-fluid {
+    background-color:  #003B5C ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    max-height: 75px;
+    position: sticky;
+    
+}
+.navbar>.container-fluid a:hover{
+    background-color: rgb(108, 107, 107);
+    color: black;
+}
+.navbar>.container-fluid a {
+    border-radius: 12px;
+    color: rgb(252, 252, 252);
+}
