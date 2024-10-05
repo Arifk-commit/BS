@@ -15,17 +15,23 @@
     background-color:  #003B5C ;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bolder;
+    font-weight: normal;
     font-style: normal;
     max-height: 75px;
     position: sticky;
     
 }
-.navbar>.container-fluid a:hover{
-    background-color: rgb(108, 107, 107);
-    color: black;
+.navbar>.container-fluid #navbarNav a:hover{
+    /* background-color: rgb(108, 107, 107); */
+    color: rgb(255, 255, 255);
 }
-.navbar>.container-fluid a {
+.navbar>.container-fluid #navbarNav a {
     border-radius: 12px;
-    color: rgb(252, 252, 252);
+    color: rgb(255, 255, 255);
+}
+
+#navbarNav .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 107, 107);
+    font-weight: bolder;
 }
