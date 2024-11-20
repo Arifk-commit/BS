@@ -1,4 +1,5 @@
 let arr = document.querySelectorAll(".appoint"); 
+let conatiner_o_dent = document.querySelector(".container_o_dent")
 
 // dentist appointment
 
@@ -10,6 +11,12 @@ let dent_over = document.querySelector("#dent_over ")
  dent_over.addEventListener("mouseleave",() =>{
     dent_over.classList.remove("app")
    
+ })
+ dent_over.addEventListener("click",()=>{
+  const newlink1 =  document.createElement('a')
+   newlink1.href = "https://chatgpt.com";
+   
+   conatiner_o_dent.appendChild(newlink1);
  })
 
 //  dietitian appointment
