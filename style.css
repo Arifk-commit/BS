@@ -1,15 +1,21 @@
+ /* css reset  */
+
  *{
     margin: 0px;
     padding: 0px;
  }
  
  
+ /* body  */
+
  body {
     background-color: beige;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
+/* navbar css  */
 
 .navbar>.container-fluid {
     background-color:  #003B5C ;
@@ -40,26 +46,41 @@
     background-color: rgb(108, 107, 107);
     font-weight: bolder;
 }
+
+/* appointment css  */
+
 .appoint{
     border-radius: 2rem;
     cursor: pointer;
 }
 
-.app{
+/* javascript styling for appointment  */
+
+.cl{
     color: blue;
     transform: translateY(-20px);
     transition-duration: 0.8s;
 }
 @media screen and (max-width: 740px) {
+
+    /* appointment */
+
     .appointment{
         padding-top: 1.2rem;
     }
 
+    
+
 }
+
+ /* mobile no in the download part  */
+
 .mobile #mobilen{
     padding: 0.6rem;
 
 }
+/* download app  */
+
 .download .downloadbtn{
     border: 2px solid white;
     background-color: black;
@@ -71,7 +92,27 @@
 .download p{
    margin: 0rem;
 }
+
 .footer_up{
     margin-top: 2rem;
     background-color: #f8f8fb;
+}
+
+.downloadbtn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* footer  */
+
+.Links p{
+    margin: 0rem;
+}
+.cl2{
+    /* text-decoration: underline;
+    color: black; */
+    border-bottom: 2px solid white;
+}
+.Links2 p {
+    margin: 0rem;
 }
